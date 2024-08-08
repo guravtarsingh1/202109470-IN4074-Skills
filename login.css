@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Change text color inside form for better readability */
+    width: 300px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+    border-radius: 5px;
+}
+
+.toggle button:hover {
+    background-color: #45a049;
+}
+
+.form {
+    display: none;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 1em;
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+p {
+    margin-top: 10px;
+}

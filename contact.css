@@ -1,0 +1,20 @@
+/* contact.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    margin-top: 10px;
+}
